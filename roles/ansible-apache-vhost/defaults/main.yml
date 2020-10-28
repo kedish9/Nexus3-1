@@ -2,10 +2,10 @@
 # defaults file for apache
 #
 # DocumentRoot
-apache_docroot: /var/www/html
+apache_docroot: /var/www/html/
 #
 # Domain
-apache_domain: 18.206.13.151
+apache_domain: locahost
 #
 # Vhost file
 vhost_file: vhost

@@ -1,7 +1,7 @@
 ---
 - name: Download Nexus
   unarchive:
-    src: https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/3/nexus-{{ nexus_version }}-unix.tar.gz
+    src: "{{ nexus_download_url }}"
     dest: /opt
     remote_src: yes
     creates: /opt/nexus/bin/nexus
