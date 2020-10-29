@@ -2,13 +2,13 @@
 ***Nexus*** is an open source repository manager that allows you to proxy , collect and manage your  dependencies. It supports many artifact formats including Java.
 Then we take these binaries that are already uploaded in nexus to ansible playbook. Ansible Playbook is a YAML file integrated in the application code , then deploys it to the CentOS machine.
 We have downloaded our roles from Ansible Galaxy and run them in the Ansible Playbook.
-Our app is opening from https. Https is a secure version of the http protocol that uses the ssl/ls protocol for encryption.
+Our app is opening from https. Https is a secure version of the http protocol that uses the ssl/ls protocol for encryption.  
 **Pre-requisites:**
 - git
 - httpd (apache)
 - openjdk (Java-1.8.0- nexus runs on Java language)
 - wget (to download  configurations for nexus)
-- openssl (created self signed certificate)
+- openssl (created self signed certificate). 
 **Languages:**.
 Java-1.8.0.
 **Set:**
