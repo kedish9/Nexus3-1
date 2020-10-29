@@ -3,7 +3,7 @@
     - name: Configure Vhost http RedHat family
       template:
         src: vhost.conf.j2
-        dest: "{{ apache_vhost_path }}{{ vhost_file }}.conf"
+        dest: "{{ apache_vhost_path }}ssl.conf"
 #
     - name: Configure Vhost SSL RedHat family
       template:
@@ -11,3 +11,5 @@
         dest: "{{ apache_vhost_path }}ssl.{{ vhost_file }}.conf"
       notify: restart_web
   when: ansible_os_family == 'RedHat'
+
+    

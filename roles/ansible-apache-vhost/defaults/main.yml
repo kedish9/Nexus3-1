@@ -5,7 +5,7 @@
 apache_docroot: /var/www/html/
 #
 # Domain
-apache_domain: locahost
+apache_domain: kamalov2020.com
 #
 # Vhost file
 vhost_file: vhost
