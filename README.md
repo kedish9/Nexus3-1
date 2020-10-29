@@ -29,4 +29,6 @@ Selinux= disabled.
       name: ansible-role-nexus3.
 ```
 **License**
-MIT License
+MIT License.  
+https://kedishdevops.com. 
+https://github.com/kedish9/Nexus3-1.git
