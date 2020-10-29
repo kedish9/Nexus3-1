@@ -8,11 +8,11 @@ Our app is opening from https. Https is a secure version of the http protocol th
 - httpd (apache)
 - openjdk (Java-1.8.0- nexus runs on Java language)
 - wget (to download  configurations for nexus)
-- openssl (created self signed certificate). 
+- openssl (created self signed certificate).  
 **Languages:**.
-Java-1.8.0.
-**Set:**
-Selinux= disabled.
+Java-1.8.0.  
+**Set:** 
+Selinux= disabled.   
 **Roles:**
 ```
   - name: Install OpenJDK.
